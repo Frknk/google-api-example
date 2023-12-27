@@ -69,6 +69,6 @@ python main.py
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/Frknk/google-api-example/blob/main/LICENSE) 
+This project is licensed under the [MIT License](https://github.com/Frknk/google-api-example/blob/main/LICENSE). 
 
 
