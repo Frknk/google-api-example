@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google API Example</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/index.css') }}"
+    />
+    <!-- Google Styles -->
+    <link
+      rel="icon"
+      href="https://www.gstatic.com/devrel-devsite/prod/v8332a5cec2b627575422eb634078b4a9892f3eac6f9006e54b6e9bbf0bfda91f/developers/images/favicon-new.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo&family=Roboto:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Extra Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+  </head>
+  <body>
+    <i class="devicon-google-plain"></i>
+    <h1>Google API Example</h1>
+    <script src="https://accounts.google.com/gsi/client" async></script>
+    <div
+      id="g_id_onload"
+      data-client_id="YOUR_CLIENT_ID"
+      data-context="signin"
+      data-ux_mode="popup"
+      data-callback="handleCredentialResponse"
+      data-auto_prompt="false"
+    ></div>
+    <div
+      class="g_id_signin"
+      data-type="standard"
+      data-shape="pill"
+      data-theme="filled_black"
+      data-text="continue_with"
+      data-size="large"
+      data-logo_alignment="left"
+    ></div>
+    <div id="user-info">
+      <div id="id"></div>
+      <div id="name"></div>
+      <div id="given_name"></div>
+      <div id="family_name"></div>
+      <div id="picture"></div>
+      <div id="email"></div>
+    </div>
+    <footer>
+      <a href="https://github.com/Frknk". target="_blank">Made by Frank</a>
+    </footer>
+  </body>
+</html>
