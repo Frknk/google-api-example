@@ -64,8 +64,8 @@ python main.py
 
 ## References
 
-- [Sign In with Google for Web](https://developers.google.com/identity/gsi/web/guides/overview)
-- [Setting up your OAuth consent screen](https://support.google.com/cloud/answer/10311615/)
+- [Sign In with Google for Web](https://developers.google.com/identity/gsi/web/guides/overview).
+- [Setting up your OAuth consent screen](https://support.google.com/cloud/answer/10311615/).
 
 ## License
 
