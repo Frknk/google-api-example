@@ -32,7 +32,7 @@ Then you need to configure your OAuth Consent Screen.
 
 ### Installation
 
-You will need Flask and PyJWT to run. To install them follow these steps.
+You will need Flask and PyJWT to run. To install them follow these steps:
 
 ```bash
 pip install Flask
