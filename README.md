@@ -60,7 +60,7 @@ python main.py
 ```
 
 > [!IMPORTANT]
-> To work correctly you must use `http://localhost:<port_number>/`.
+> To work correctly on local you must use `http://localhost:<port_number>/`.
 
 ## References
 
