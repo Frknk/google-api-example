@@ -42,18 +42,18 @@ pip install Flask
 pip install PyJWT
 ```
 
-Then just clone the repository
+Then just clone the repository.
 
 ```bash
 git clone https://github.com/Frknk/google-api-example
 ```
 
 > [!TIP]
-> Dont forget to modify `templates/index.html` with your current ID
+> Dont forget to modify `templates/index.html` with your current ID.
 
 ### Run
 
-Simply execute
+Simply execute.
 
 ```bash
 python main.py
